@@ -16,11 +16,12 @@ module.exports = function () {
             style: {
                 background: 'blue',
                 color: 'white',
-                width: '300px'
+                width: '300px',
+                border-radius: '3px'
             }
         }, [
-          h('button', { onclick: _ => m.hide()}, ['Ok']),
-          h('h1', [desc])
+          h('h1', [desc]),
+          h('button', { style: { text-align: 'center' }, onclick: _ => m.hide()}, ['Ok'])
         ])
     ])
   }
