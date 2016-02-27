@@ -14,14 +14,20 @@ module.exports = function () {
     return h('.modal', [
         h('.modal__dialog', {
             style: {
-                background: 'blue',
+                background: 'darkgray',
                 color: 'white',
                 width: '300px',
-                border-radius: '3px'
+                border-radius: '5px',
+                border: '1px solid gray',
+                margin: '10px',
+                padding: '10px',
+                font-family: 'monospace'
             }
         }, [
           h('h1', [desc]),
-          h('button', { style: { text-align: 'center' }, onclick: _ => m.hide()}, ['Ok'])
+          h('center', [
+            h('button', { onclick: _ => m.hide()}, ['Ok'])
+          ])
         ])
     ])
   }
