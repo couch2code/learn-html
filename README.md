@@ -99,16 +99,29 @@ Validate your document by running the following command in the system import sta
 The setup document template looks like the following:
 
     <!doctype html>
-    <html>
-      <head>
-        <title>Couch2Code - Learn HTML</title>
-      </head>
-      <body>
-        <div class="container">
-          <!-- Add your code here -->
-        </div>
-        <script>
-          System.import('npm:@couch2code/learn-html/ex1').then(v => v())
-        </script>
-      </body>
-    </html>
+     <html>
+       <head>
+         <title>Couch2Code - Learn HTML</title>
+         <script src="https://jspm.io/system@0.19.js"></script>
+         <script>
+             System.config({
+                 paths: {
+                     "learn-html:*": "https://rawgit.com/couch2code/learn-html/master/*/index.js"
+                 }
+             })
+         </script>
+       </head>
+       <body>
+         <div class="container">
+           <!-- Add your code here -->
+           <p>Paragraph1</p>
+           <p>Paragraph2</p>
+           <p>Paragraph3</p>
+         </div>
+         <script>
+           System.import('learn-html:ex1')
+             .then(v => v())
+             //.catch(e => console.log(e))
+         </script>
+       </body>
+     </html>
