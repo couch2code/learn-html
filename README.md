@@ -54,12 +54,10 @@ In the body section of the html document, there is a container element, inside t
 
 ---
 
-Once you have finished creating 3 paragraph elements in your html document, in the script section of the import command, you want to import `npm:couch2code/html-ex1` and invoke the `validate` command.
+Once you have finished creating 3 paragraph elements in your html document, in the script section of the import command, you want to import `learn-html:ex1` and invoke the `validate` command.
 
     <script>
-      System.import('npm:@couch2code/learn-html/ex1').then(function (validate) {
-        validate()
-      })
+      System.import('learn-html:ex1').then(validate => validate())
     </script>
 
 This script will check your work and present you with a success message if you completed the exercise correctly, if you did not, it will present you with a description of what may be missing.  You can view the document and run the script by opening the document in your web browser of choice.
@@ -81,9 +79,7 @@ In this exercise, we want to use two elements, a paragraph element and a heading
 Validate your document by running the following command in the system import statement.
 
     <script>
-      System.import('npm:@couch2code/learn-html/ex2').then(function (validate) {
-        validate()
-      })
+      System.import('learn-html:ex1').then(v => v())
     </script>
 
 ---
@@ -114,7 +110,7 @@ The setup document template looks like the following:
        <body>
          <div class="container">
            <!-- Add your code here -->
-           
+
          </div>
          <script>
            System.import('learn-html:ex1')
