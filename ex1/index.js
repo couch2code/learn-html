@@ -5,7 +5,7 @@ const buttonStyle = {
   'margin-bottom': '10px',
   'text-align': 'center',
   display: 'block',
-  width: '50px',
+  width: '100px',
   padding: '5px 10px 6px',
   color: '#fff',
   'text-decoration': 'none',
