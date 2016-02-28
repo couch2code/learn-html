@@ -30,9 +30,9 @@ module.exports = function () {
     return h('img', { src: url, width: '100%'})
   }
   function checkCode () {
-    var d = dialog(img('http://gph.is/1LnCqDw'), 'OK')
+    var d = dialog(img('http://i.giphy.com/10tIjpzIu8fe0.gif'), 'OK')
     if (document.querySelectorAll('p').length === 3) {
-      d = dialog(img('http://gph.is/1KWenhL'), 'OK')
+      d = dialog(img('http://i.giphy.com/l41lHvfYqxWus1oYw.gif'), 'OK')
     }
     d.show()
  }
