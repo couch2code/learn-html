@@ -114,9 +114,7 @@ The setup document template looks like the following:
        <body>
          <div class="container">
            <!-- Add your code here -->
-           <p>Paragraph1</p>
-           <p>Paragraph2</p>
-           <p>Paragraph3</p>
+           
          </div>
          <script>
            System.import('learn-html:ex1')
