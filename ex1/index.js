@@ -5,7 +5,7 @@ const buttonStyle = {
   'margin-bottom': '10px',
   'text-align': 'center',
   display: 'block',
-  width: '100px',
+  width: '300px',
   padding: '5px 10px 6px',
   color: '#fff',
   'text-decoration': 'none',
@@ -27,7 +27,7 @@ module.exports = function () {
     ])
   )
   function img (url) {
-    h('img', { src: url, width: '100%'})
+    return h('img', { src: url, width: '100%'})
   }
   function checkCode () {
     var d = dialog(img('http://gph.is/1LnCqDw'), 'OK')
