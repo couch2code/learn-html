@@ -27,7 +27,7 @@ module.exports = function () {
     ])
   )
   function img (url) {
-    return h('img', { src: url, width: '100%'})
+    return h('img', { src: url, style: { width: '100%'}})
   }
   function checkCode () {
     var d = dialog(img('http://i.giphy.com/10tIjpzIu8fe0.gif'), 'OK')
