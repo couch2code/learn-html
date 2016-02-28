@@ -29,7 +29,7 @@ module.exports = function () {
   function checkCode () {
     var d = dialog('Exercise Error!', 'OK')
     if (document.querySelectorAll('p').length === 3) {
-      d = dialog(h('img', { src: 'http://1.media.dorkly.cvcdn.com/50/27/0d41808f60af8871fa122b3b0f37ab1b.gif'}), 'OK')
+      d = dialog(h('img', { src: 'http://1.media.dorkly.cvcdn.com/50/27/0d41808f60af8871fa122b3b0f37ab1b.gif', width: '100%'}), 'OK')
     }
     d.show()
  }
