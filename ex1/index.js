@@ -26,10 +26,13 @@ module.exports = function () {
       h('button', { style: buttonStyle, onclick: _ => checkCode() }, ['Check Code'])
     ])
   )
+  function img (url) {
+    h('img', { src: url, width: '100%'})
+  }
   function checkCode () {
-    var d = dialog('Exercise Error!', 'OK')
+    var d = dialog(img('http://gph.is/1LnCqDw'), 'OK')
     if (document.querySelectorAll('p').length === 3) {
-      d = dialog(h('img', { src: 'http://1.media.dorkly.cvcdn.com/50/27/0d41808f60af8871fa122b3b0f37ab1b.gif', width: '100%'}), 'OK')
+      d = dialog(img('http://gph.is/1KWenhL'), 'OK')
     }
     d.show()
  }
