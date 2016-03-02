@@ -1,4 +1,110 @@
-# What is HTML?
+# Learn HTML
+
+Lesson 1
+
+---
+
+### Rules
+
+* Be Cool
+* Raise your hand when you want to speak or need help.
+* If you are stuck in a challenge, ask your neighbor, ask google, ask the teacher
+
+---
+
+### Lesson Format
+
+Each lesson will last about an hour, and the format will go as follows:
+
+* Introduce something new to learn.
+* Watch me apply the topic on the projector.
+* Exercises to practice the concept.
+
+---
+
+! http://i.giphy.com/XlhzCl8UQ3MaI.gif
+
+---
+
+### Lets get started
+
+* Stand up
+* Reach the Sky
+* Touch your toes
+* Run in place
+* Take your seat
+
+---
+
+### Quick Overview
+
+---
+
+# What is programming?
+
+---
+
+# What is the internet?
+
+---
+
+### Learn HTML
+
+You are going to learn html
+
+---
+
+### Character name
+
+Everyone need to think of a character name, if you can't think of one, use
+this pattern to create one: [favorite reaction]-[favorite fruit]-[favorite-number]
+
+---
+
+### code.w3foo.com
+
+We are going to create a standard username and password for this class, then we
+are going to create a project directory for your work.
+
+---
+
+# Watch me code
+
+---
+
+### Exercises
+
+1. login to code.w3foo.com
+2. create your project using your character name
+3. in the index.html page, add `<h1>[Your Character Name]</h1>` inside the body section.
+4. click the save button
+5. click the refresh button to preview your page
+
+---
+
+### Extra Credit
+
+In the script tag of the index.html file, replace the current code with the following:
+
+```
+  System.import('learnHtml:ex0').then(v => v())
+```
+
+Then refresh and see if you got it right!
+
+---
+
+# Break
+
+---
+
+# HTML elements
+
+Lesson 2
+
+---
+
+### What is HTML?
 
 HTML is a markup language that describes how a internet browser should display documents and applications. HTML uses a repeatable pattern to understand the begining and ending of a statement and the statement commmand.
 
@@ -8,7 +114,7 @@ Using the `less than` and `greather than` symbols wrapped around a command repre
 
 ---
 
-## Paragraph Element
+### Paragraph Element
 
 A common command is the `paragraph` command or which is represented as the `p`.  In html statements are called `elements` and they consist of a start `tag`, contents and end `tag`.
 
@@ -42,7 +148,7 @@ Use the setup template to do all exercise, this template will help your validate
 
 ---
 
-### Exercise 1
+### Exercise 2-1
 
 In the body section of the html document, there is a container element, inside that container element, start your exercise by creating a paragraph element with the following contents.
 
@@ -64,7 +170,7 @@ This script will check your work and present you with a success message if you c
 
 ---
 
-### Exercise 2
+### Exercise 2-2
 
 In this exercise, we want to use two elements, a paragraph element and a heading 1 element. The heading 1 element uses the h1 tag.  Ex: <h1>contents</h1> and of course the paragraph element that is represented using the p tag. Ex: <p>contents</p>
 
@@ -84,9 +190,362 @@ Validate your document by running the following command in the system import sta
 
 ---
 
-### Exercise 3
+### Exercise 2-3
 
-[TODO]
+Madlibs
+
+1. [CharacterName]
+2. [AliasName]
+3. [PlanetName]
+4. [PersonName]
+5. [PersonName2]
+6. [Adjective]
+7. [Object]
+
+---
+
+Character Biography
+
+[1] is born as [2] on the alien planet [3]. His parents [4] and [5] become aware of
+a [6] planet earth. [4] sent [2] to the planet earth to become a superhero.
+
+[2] is known as [1] on planet earth and has super human powers. [1] cares about
+the planet earth and uses a [7] to ward off evil doers and keep the peace.
+
+[Write your own paragraph]
+---
+
+# HTML List and Images
+
+Lesson 3
+
+---
+
+! http://i.giphy.com/IMmOT1NAUsj7y.gif
+
+---
+
+### List
+
+So we love to list things, lists are one of the most important features in html,
+and there are two types of lists:
+
+* unordered list
+* ordered list
+
+---
+
+### Unordered list
+
+* does
+* not
+* have an order
+
+---
+
+```
+<ul>
+  <li>does</li>
+  <li>not</li>
+  <li>have an order</li>
+</ul>
+```
+
+---
+
+## What does `ul` stand for?
+
+---
+
+## What does `li` stand for?
+
+---
+
+### Nested elements with block scope
+
+So we are using two html elements, li does not have any meaning without ul, but
+ul does not display any thing without li, these elements depend on each other to
+work correctly.
+
+---
+
+! http://cdn.playbuzz.com/cdn/ac09e079-c66d-4416-bf06-5afacbe2595b/24fd3c36-7b0e-441d-8600-0380cc181248.gif
+
+---
+
+### Pop Quiz
+
+If you created html, what you use as a command for ordered list?
+
+Hint, if you called unordered list ul, then what would you call ordered list command?
+
+---
+
+# ol
+
+---
+
+### What does a basic ordered list look like?
+
+1. first
+2. second
+3. third
+
+---
+
+### What about in code?
+
+```
+<ol>
+  <li>first</li>
+  <li>second</li>
+  <li>third</li>
+</ol>
+```
+
+---
+
+# HTML Images
+
+---
+
+But wait, lets learn about HTML Attributes
+
+---
+
+An HTML Attribute is a label with an equals sign and a value, this equation is
+placed inside the angle brackets of the start tag.
+
+```
+<tag-name attribute="value"></tag-name>
+```
+
+---
+
+We use attributes to specify the source url of an image, and the alternate description, for the visually impaired.
+
+```
+<img src="http://image-path.com/image-name.png" alt="cute kitten"></img>
+```
+
+---
+
+# Demo
+
+---
+
+# Exercises
+
+---
+
+### Exercise 3-1
+
+create a list heading 3 and a list of super powers for our character. Hint you want to
+use an unordered list and a h3 to list all of your characters super powers.
+
+---
+
+### Exercise 3-2
+
+Use an ordered list to list the steps to make a peanut butter and jelly sandwich.
+
+---
+
+### Exercise 3-3
+
+We want to find an avatar image, using this bank of images to be our character portrait.
+
+Go to avatar.w3foo.com find your character, and copy the url, and paste it in your website as an image tag.
+
+---
+
+# HTML Links
+
+Lesson 4
+
+---
+
+The ability to create links on html documents and to other html documents is one
+of the most powerful features of html. Links are created using the anchor element,
+or a command.  It is structured like:
+
+```
+<a href="">[Content]</a>
+```
+
+---
+
+You can use the anchor element to connect to navigate to sections in the document,
+or navigate to other documents on your website or even any website on the internet.
+
+---
+
+The html link uses the href attribute to add the url or path that the link will
+navigate to when clicked.
+
+---
+
+### url
+
+uniform resource location
+
+the url is composed of the following segments
+
+* protocol - http or https
+* domain - subdomain.domain.suffix
+* path - location of asset
+* query - key/value pairs of information
+
+---
+
+### url Example
+
+https://www.example.com/index.html?hello=world
+
+---
+
+* protocol - https
+* subdomain - www
+* domain name - example
+* domain suffix - com
+* path - /index.html
+* query = hello=world
+
+---
+
+# target attribute
+
+What if you open in new tab or window, when the user clicked the link.
+
+Then you would use the target attribute
+
+```
+<a href="https://www.wikipedia.com" target="_new">Open in New Tab/Window</a>
+```
+
+---
+
+# Demo
+
+---
+
+# Exercises
+
+---
+
+Exercise 4 - 1
+
+Create a new folder, called links-4-1, create three new files in the folder,
+menu.html, one.html, two.html.
+
+In menu add a heading 1 element with name menu, and a list element with two line
+items, inside each line item, add an anchor element, with the href of one.html and
+two.html, and in the contents section place one and two.
+
+In the one and two html files simply add a heading 1 with the name of the
+file, and then an anchor element with a href of menu.html and the contents as menu.
+
+---
+
+Exercise 4 - 2
+
+In this exercise, we are going to add links to our profile page for additional
+pages.
+
+* photos
+* blog
+* games
+* contact
+
+---
+
+Exercise 4 - 3
+
+Create a maze game.
+
+Create a new folder call it 'maze-game' then create an index.html page and add a
+description, then after the description, provide 2 or more choices, door 1 or door 2.
+
+Then create the door 1 or door 2 pages, and on each of those pages write a description,
+and provide two or more choices, with an option to go back to the previous page.
+
+Using the technique, create a nested maze to find waldo or find the gold in an
+adventure, then at the end, let your neighbor play the game by giving them the
+url.
+
+Add the link to your games page in your character profile.
+
+---
+
+# HTML Sections and Articles
+
+Lesson 5
+
+---
+
+Just like there are tags for headings and paragraphs, there are more elements that
+describe sections, navigation, articles and dividers. The presentation of these
+elements can be customized using css or stylesheets.
+
+---
+
+The generic element is called `<div>` and more descriptive elements that have the
+same block functionality are:
+
+* header/footer
+* nav
+* main
+* section
+* article
+
+---
+
+```
+<div class="container">
+  <div class="header">
+    <h1>Title</h1>
+  </div>
+  <div class="main">
+    <div class="article">
+      <h2>Article Header</h2>
+      <p>Paragraph One</p>
+    </div>
+  </div>
+</div>
+```
+
+---
+
+```
+<nav></nav>
+<section class="container">
+  <header>
+    <h1>Header</h1>
+  </header>
+  <main>
+    <article>
+      <header>
+        <h2>Article Header</h2>
+      </header>
+      <section>
+        <p>Content</p>
+      </section>
+    </article>
+  </main>
+</section>
+```
+
+---
+
+
+
+# HTML Forms
+
+Lesson 6
+
+---
+
+
 
 ---
 
