@@ -537,7 +537,64 @@ same block functionality are:
 
 ---
 
+Using these elements, we can start to structure our HTML Documents it more intuitive
+and understandable way.
 
+For example, lets take our blog section, which contains a list of articles.
+
+---
+
+# Block vs Inline
+
+---
+
+There are a couple of elements that provide inline scope or in-place presentation
+changes.
+
+* span
+* a
+* em
+
+---
+
+```
+<p>This is a paragraph that has an <span>inline</span> element embedded in the html document</p>
+```
+
+---
+
+# Demo
+
+---
+
+# Exercises
+
+---
+
+Exercise 5-1
+
+In this exercise, we want to create as many blog posts we can on our character
+profile, we will use a set of madlibs templates to provide content for the articles
+or create our own content, you should create at least 3 articles, and there should
+be a header section and a main section.  Each article, should have a header.
+
+---
+
+Madlibs 1
+
+---
+
+Madlibs 2
+
+---
+
+Madlibs 3
+
+---
+
+# DEMO   
+
+---
 
 # HTML Forms
 
