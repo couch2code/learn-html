@@ -370,7 +370,11 @@ Use an ordered list to list the steps to make a peanut butter and jelly sandwich
 
 We want to find an avatar image, using this bank of images to be our character portrait.
 
-Go to avatar.w3foo.com find your character, and copy the url, and paste it in your website as an image tag.
+Go to http://sigfigcreator.thelegomovie.com/ find your character, and copy the url, and paste it in your website as an image tag.
+
+---
+
+! http://s3.amazonaws.com/lego_sigfig/1457149211_UTDlIHqoza.png
 
 ---
 
