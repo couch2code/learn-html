@@ -222,8 +222,6 @@ the planet earth and uses a [7] to ward off evil doers and keep the peace.
 
 [Write your own paragraph]
 
----
-
 <script>
   System.import('learn-html:ex2-3').then(v => v())
 </script>
@@ -358,11 +356,23 @@ We use attributes to specify the source url of an image, and the alternate descr
 create a list heading 3 and a list of super powers for our character. Hint you want to
 use an unordered list and a h3 to list all of your characters super powers.
 
+```
+<script>
+  System.import('learn-html:ex3-1').then(validate => validate())
+</script>
+```
+
 ---
 
 ### Exercise 3-2
 
 Use an ordered list to list the steps to make a peanut butter and jelly sandwich.
+
+```
+<script>
+  System.import('learn-html:ex3-2').then(validate => validate())
+</script>
+```
 
 ---
 
@@ -371,6 +381,12 @@ Use an ordered list to list the steps to make a peanut butter and jelly sandwich
 We want to find an avatar image, using this bank of images to be our character portrait.
 
 Go to http://sigfigcreator.thelegomovie.com/ find your character, and copy the url, and paste it in your website as an image tag.
+
+```
+<script>
+  System.import('learn-html:ex3-3').then(validate => validate())
+</script>
+```
 
 ---
 
@@ -466,6 +482,26 @@ file, and then an anchor element with a href of menu.html and the contents as me
 
 ---
 
+### menu.html
+
+```
+<script>
+  System.import('learn-html:ex4-1/menu').then(validate => validate())
+</script>
+```
+
+---
+
+### one.html
+
+```
+<script>
+  System.import('learn-html:ex4-1/one').then(validate => validate())
+</script>
+```
+
+---
+
 Exercise 4 - 2
 
 In this exercise, we are going to add links to our profile page for additional
@@ -476,6 +512,13 @@ pages.
 * blog
 * games
 * contact
+
+```
+<script>
+  System.import('learn-html:ex4-2').then(validate => validate())
+</script>
+```
+
 
 ---
 
