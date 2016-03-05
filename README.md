@@ -102,8 +102,6 @@ Then refresh and see if you got it right!
 
 ---
 
-# Break
-
 ! http://i.giphy.com/DUtSpDzxZZwPu.gif
 
 ---
@@ -230,8 +228,6 @@ the planet earth and uses a [7] to ward off evil doers and keep the peace.
 
 ---
 
-# Break
-
 ! http://i.giphy.com/NPXH9DAWLf5hm.gif
 
 ---
@@ -347,7 +343,7 @@ We use attributes to specify the source url of an image, and the alternate descr
 
 ---
 
-# Demo
+# Watch me code
 
 ---
 
@@ -397,8 +393,6 @@ Go to http://sigfigcreator.thelegomovie.com/ find your character, and copy the u
 ! http://s3.amazonaws.com/lego_sigfig/1457149211_UTDlIHqoza.png
 
 ---
-
-# Break
 
 ! http://i.giphy.com/1w3MyWVVj2giA.gif
 
@@ -471,7 +465,7 @@ Then you would use the target attribute
 
 ---
 
-# Demo
+# Watch me code
 
 ---
 
@@ -550,8 +544,6 @@ url.
 Add the link to your games page in your character profile.
 
 ---
-
-# Break
 
 ! http://i.giphy.com/3o6UB7jHQYIjeh5IGY.gif
 
@@ -643,7 +635,7 @@ changes.
 
 ---
 
-# Demo
+# Watch me Code
 
 ---
 
@@ -683,14 +675,11 @@ Make up your own using 2 paragraphs
 
 ---
 
-# DEMO   
+# Watch me code   
 
 ---
 
-# Break
-
 ! http://i.giphy.com/26tOW1yorWZy5X2De.gif
-
 
 ---
 
@@ -778,7 +767,7 @@ exercise we will just build the form, it won't work on to later in the program.
 
 ---
 
-# Demo
+# Watch me code
 
 ---
 
@@ -792,9 +781,9 @@ Create a contact us page for your character, add the link to your home page.
 
 ---
 
-# Break
-
 ! http://i.giphy.com/AwLhdQZ229gRi.gif
+
+---
 
 ### Setup
 
