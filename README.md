@@ -471,6 +471,7 @@ Exercise 4 - 2
 In this exercise, we are going to add links to our profile page for additional
 pages.
 
+* home
 * photos
 * blog
 * games
@@ -599,15 +600,26 @@ be a header section and a main section.  Each article, should have a header.
 
 ---
 
-Madlibs 1
+Story 1
+
+[your character] was in [proper name] city, and [negative emotion] [fruit] was [illegal action] the [priceless object]. [your character] used the [super power] to stop the
+[negative emotion] [fruit]. The [negative emotion] [fruit] was no match for the
+[nice adjective] [character]
 
 ---
 
-Madlibs 2
+Story 2
+
+[your character] was monitoring the city high in the sky, when [character] spotted
+a lady in distress.  Help! Help! Help! my cat is up a tree and will not come down.
+[you character] dashes in and climbs the tree and grabs the cat and brings the cat
+to the lady.
 
 ---
 
-Madlibs 3
+Story 3
+
+Make up your own using 2 paragraphs
 
 ---
 
