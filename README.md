@@ -104,6 +104,8 @@ Then refresh and see if you got it right!
 
 ! http://i.giphy.com/DUtSpDzxZZwPu.gif
 
+# Break
+
 ---
 
 # HTML elements
@@ -142,7 +144,7 @@ Paragraph End Tag
 
 ## Example
 
-Demontrate to the class a collection of paragraph elements:
+Demonstrate to the class a collection of paragraph elements:
 
   The term HTML Element or Element is the term that describes the entire statement, start angle brackets, tag name, end angle brackets, contents, start angle brackets, back slash, tag name, end angle brackets.
 
@@ -225,6 +227,10 @@ the planet earth and uses a [7] to ward off evil doers and keep the peace.
 <script>
   System.import('learn-html:ex2-3').then(v => v())
 </script>
+
+---
+
+! http://i.giphy.com/DUtSpDzxZZwPu.gif
 
 ---
 
@@ -394,6 +400,11 @@ Go to http://sigfigcreator.thelegomovie.com/ find your character, and copy the u
 
 ---
 
+! http://i.giphy.com/DUtSpDzxZZwPu.gif
+
+---
+
+
 # HTML Links
 
 Lesson 4
@@ -540,6 +551,10 @@ Add the link to your games page in your character profile.
 
 ---
 
+! http://i.giphy.com/DUtSpDzxZZwPu.gif
+
+---
+
 # HTML Sections and Articles
 
 Lesson 5
@@ -669,6 +684,12 @@ Make up your own using 2 paragraphs
 # DEMO   
 
 ---
+
+! http://i.giphy.com/DUtSpDzxZZwPu.gif
+
+
+---
+
 
 # HTML Forms
 
