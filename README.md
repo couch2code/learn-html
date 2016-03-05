@@ -4,6 +4,14 @@ Lesson 1
 
 ---
 
+### Teachers
+
+* Mr Tom
+* Ms Alex
+* Mr Lucas
+
+---
+
 ### Rules
 
 * Be Cool
@@ -61,7 +69,7 @@ this pattern to create one: [favorite reaction]-[favorite fruit]-[favorite-numbe
 
 ---
 
-### code.w3foo.com
+### www.code10k.com
 
 We are going to create a standard username and password for this class, then we
 are going to create a project directory for your work.
@@ -106,11 +114,11 @@ Lesson 2
 
 ### What is HTML?
 
-HTML is a markup language that describes how a internet browser should display documents and applications. HTML uses a repeatable pattern to understand the begining and ending of a statement and the statement commmand.
+HTML is a markup language that describes how a internet browser should display documents and applications. HTML uses a repeatable pattern to understand the beginning and ending of a statement and the statement command.
 
    <command> contents </command>
 
-Using the `less than` and `greather than` symbols wrapped around a command represents the beginning of the statement and the `less than`, `backslash`, `command` and `greater than` symbols represent the end of the statement.
+Using the `less than` and `greater than` symbols wrapped around a command represents the beginning of the statement and the `less than`, `backslash`, `command` and `greater than` symbols represent the end of the statement.
 
 ---
 
@@ -602,7 +610,94 @@ Lesson 6
 
 ---
 
+Not only does HTML have a lot of options for presenting data, it also can be
+used to collect data from visitors of a site or users of a web app.  
 
+---
+
+HTML has a full set of form elements that help instruct browsers how to build
+user interfaces to capture input from the users of your website or webapp.
+
+* form
+* input
+* select
+* label
+* textarea
+* button
+
+---
+
+Building forms requires a nested element of `form` then inside the form user
+interface elements can be specified.
+
+---
+
+Input will show a single text entry box:
+
+```
+<input name="username"></input>
+```
+
+---
+
+Select will provide a list of options for the user to choose, inside the select
+element, are children option elements that display the values that can be chosen.
+
+```
+<select name="color">
+  <option>Red</option>
+  <option>Green</option>
+  <option>Blue</option>
+</select>
+```
+
+---
+
+Label is an user interface element that the user can use to describe a user interface element.
+
+```
+<label for="username">Username</label>
+<input id="username" name="username"></input>
+```
+
+---
+
+Textarea is a user interface input box that can enable the user to enter more than one line of
+text at a time.
+
+```
+<textarea name="comments" rows="3"></textarea>
+```
+
+---
+
+Button is a user interface element that enables the user to instruct the application
+to perform a function.
+
+```
+<button>Submit</button>
+<button>Cancel</button>
+```
+
+---
+
+In this demo, we will create a contact us web page for our character, so that visitors
+of our characters website can reach out and communicate to our character.  For this
+exercise we will just build the form, it won't work on to later in the program.
+
+---
+
+# Demo
+
+---
+
+# Exericses
+
+---
+
+Exercise 6-1
+
+Create a contact us page for your character, add the link to your home page.
 
 ---
 
