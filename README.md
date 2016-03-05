@@ -102,7 +102,7 @@ Then refresh and see if you got it right!
 
 ---
 
-# Break
+! http://i.giphy.com/DUtSpDzxZZwPu.gif
 
 ---
 
@@ -168,10 +168,10 @@ In the body section of the html document, there is a container element, inside t
 
 ---
 
-Once you have finished creating 3 paragraph elements in your html document, in the script section of the import command, you want to import `learn-html:ex1` and invoke the `validate` command.
+Once you have finished creating 3 paragraph elements in your html document, in the script section of the import command, you want to import `learn-html:ex2-1` and invoke the `validate` command.
 
     <script>
-      System.import('learn-html:ex1').then(validate => validate())
+      System.import('learn-html:ex2-1').then(validate => validate())
     </script>
 
 This script will check your work and present you with a success message if you completed the exercise correctly, if you did not, it will present you with a description of what may be missing.  You can view the document and run the script by opening the document in your web browser of choice.
@@ -193,7 +193,7 @@ In this exercise, we want to use two elements, a paragraph element and a heading
 Validate your document by running the following command in the system import statement.
 
     <script>
-      System.import('learn-html:ex1').then(v => v())
+      System.import('learn-html:ex2-2').then(v => v())
     </script>
 
 ---
@@ -212,7 +212,7 @@ Madlibs
 
 ---
 
-Character Biography
+### Character Biography
 
 [1] is born as [2] on the alien planet [3]. His parents [4] and [5] become aware of
 a [6] planet earth. [4] sent [2] to the planet earth to become a superhero.
@@ -221,6 +221,13 @@ a [6] planet earth. [4] sent [2] to the planet earth to become a superhero.
 the planet earth and uses a [7] to ward off evil doers and keep the peace.
 
 [Write your own paragraph]
+
+---
+
+<script>
+  System.import('learn-html:ex2-3').then(v => v())
+</script>
+
 ---
 
 # HTML List and Images
