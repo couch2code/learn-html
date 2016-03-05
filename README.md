@@ -64,7 +64,7 @@ You are going to learn html
 
 ### Character name
 
-Everyone need to think of a character name, if you can't think of one, use
+Everyone needs to think of a character name, if you can't think of one, use
 this pattern to create one: [favorite reaction]-[favorite fruit]-[favorite-number]
 
 ---
@@ -82,15 +82,15 @@ are going to create a project directory for your work.
 
 ### Exercises
 
-1. login to code.w3foo.com
-2. create your project using your character name
-3. in the index.html page, add `<h1>[Your Character Name]</h1>` inside the body section.
-4. click the save button
-5. click the refresh button to preview your page
+* login to code.code10k.com
+* create your project using your character name
+* in the index.html page, add `<h1>[Your Character Name]</h1>` inside the body section.
+* click the save button
+* click the refresh button to preview your page
 
 ---
 
-### Extra Credit
+### Notice
 
 In the script tag of the index.html file, replace the current code with the following:
 
