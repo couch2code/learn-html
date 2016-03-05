@@ -102,9 +102,9 @@ Then refresh and see if you got it right!
 
 ---
 
-! http://i.giphy.com/DUtSpDzxZZwPu.gif
-
 # Break
+
+! http://i.giphy.com/DUtSpDzxZZwPu.gif
 
 ---
 
@@ -230,17 +230,15 @@ the planet earth and uses a [7] to ward off evil doers and keep the peace.
 
 ---
 
-! http://i.giphy.com/DUtSpDzxZZwPu.gif
+# Break
+
+! http://i.giphy.com/NPXH9DAWLf5hm.gif
 
 ---
 
 # HTML List and Images
 
 Lesson 3
-
----
-
-! http://i.giphy.com/IMmOT1NAUsj7y.gif
 
 ---
 
@@ -400,7 +398,9 @@ Go to http://sigfigcreator.thelegomovie.com/ find your character, and copy the u
 
 ---
 
-! http://i.giphy.com/DUtSpDzxZZwPu.gif
+# Break
+
+! http://i.giphy.com/1w3MyWVVj2giA.gif
 
 ---
 
@@ -551,7 +551,9 @@ Add the link to your games page in your character profile.
 
 ---
 
-! http://i.giphy.com/DUtSpDzxZZwPu.gif
+# Break
+
+! http://i.giphy.com/3o6UB7jHQYIjeh5IGY.gif
 
 ---
 
@@ -685,7 +687,9 @@ Make up your own using 2 paragraphs
 
 ---
 
-! http://i.giphy.com/DUtSpDzxZZwPu.gif
+# Break
+
+! http://i.giphy.com/26tOW1yorWZy5X2De.gif
 
 
 ---
@@ -787,6 +791,10 @@ Exercise 6-1
 Create a contact us page for your character, add the link to your home page.
 
 ---
+
+# Break
+
+! http://i.giphy.com/AwLhdQZ229gRi.gif
 
 ### Setup
 
